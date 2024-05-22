@@ -7,4 +7,4 @@ st.text("Uma pequena demonstração do poder das libraries Pandas e Streamlit co
 st.markdown('''
     :red[By:] :green[Henrique] :blue[Oliveira] :sunglasses:''')
 
-st.link_button("GitHub", type="secondary", url="https://github.com/henrioliveiragit/StreamlitPandas-Site")
+st.link_button("LinkedIn", type="secondary", url="https://www.linkedin.com/in/henrique-oliveira-317083201/")
