@@ -3,4 +3,3 @@ pandas
 numpy
 matplotlib
 vega_datasets
-st_aggrid
