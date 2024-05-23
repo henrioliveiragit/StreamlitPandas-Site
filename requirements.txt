@@ -3,3 +3,4 @@ pandas
 numpy
 matplotlib
 vega_datasets
+streamlit-aggrid
