@@ -58,7 +58,7 @@ for i in range(1, numero_de_pagamentos + 1):
 df = pd.DataFrame(
     agenda,
     
-    columns=["i", "Pagamento Anual", "Dinheiro Investido", "Juros Cobrado", "A Pagar", "Prazo", "date"],
+    columns=["i", "Pagamento Anual", "Dinheiro Investido", "Juros Cobrado", "A Pagar", "Anos", "date"],
     dtype=object
 )
 
@@ -66,4 +66,4 @@ df = pd.DataFrame(
 chart_data = df
 
 st.bar_chart(
-   chart_data, x="Prazo", y=["Pagamento Anual", "Juros Cobrado"], color=["#FF5252", "#3976C8"])
+   chart_data, x="Anos", y=["Pagamento Anual", "Juros Cobrado"], color=["#FF5252", "#3976C8"])
